@@ -1,5 +1,5 @@
-#include "Calc.h"
+#include "Calc.hpp"
 #include <iostream>
 
-int Calc::multiply() { return x_ * y_; }
-int Calc::add() { return x_ + y_; }
+int Calc::multiply() const { return x_ * y_; }
+int Calc::add() const { return x_ + y_; }

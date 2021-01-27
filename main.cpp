@@ -1,4 +1,4 @@
-#include "Calc_lib/Calc.h"
+#include "Calc_lib/Calc.hpp"
 #include <iostream>
 
 int main() {
