@@ -6,6 +6,7 @@ class Calc {
   Calc(int x, int y) : x_(x), y_(y) {}
   int multiply() const;
   int add() const;
+  float division() const;
 
  private:
   int x_;
